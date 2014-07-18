@@ -6,3 +6,11 @@
 #
 # Pods/
 
+.DS_Store
+*.xcuserstate
+*.xcscheme
+*.plist
+*.pbxproj
+*.xcbkptlist
+*.xcuserstate
+*.xccheckout 
