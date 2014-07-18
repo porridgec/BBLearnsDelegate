@@ -7,6 +7,7 @@
 //
 
 #import "BBAppDelegate.h"
+#import "BBViewController.h"
 
 @implementation BBAppDelegate
 
@@ -15,6 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    BBViewController *mainVC = [[BBViewController alloc] init];
+    [self.window setRootViewController:mainVC];
     [self.window makeKeyAndVisible];
     return YES;
 }
