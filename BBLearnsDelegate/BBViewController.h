@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BBSquareView.h"
+#import "BBWTFView.h"
 
-@interface BBViewController : UIViewController <BBAnimationDelegate>
+@interface BBViewController : UIViewController <BBAnimationDelegate,BBWTFdelegate>
 
 @end

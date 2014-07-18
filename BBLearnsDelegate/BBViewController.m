@@ -8,6 +8,7 @@
 
 #import "BBViewController.h"
 #import "BBSquareView.h"
+#import "BBWTFView.h"
 
 @interface BBViewController ()
 
@@ -54,17 +55,35 @@
 {
     self.view.backgroundColor = [UIColor redColor];
     
-    BBSquareView *tmp = [[BBSquareView alloc] initWithFrame:CGRectMake(0, 290, 100, 100)];
+//    BBSquareView *tmp = [[BBSquareView alloc] initWithFrame:CGRectMake(0, 290, 100, 100)];
+//    tmp.backgroundColor = [UIColor yellowColor];
+//    tmp.delegate = self;
+//    [self.view addSubview:tmp];
+//    [tmp run];
+    BBWTFView *tmp = [[BBWTFView alloc] initWithFrame:CGRectMake(0, 290, 100, 100)];
     tmp.backgroundColor = [UIColor yellowColor];
-    tmp.delegate = self;
+    tmp.bbWTFDelegate = self;
     [self.view addSubview:tmp];
-    [tmp run];
+    [tmp bbrun];
 }
 
-#pragma mark delegate
+#pragma mark - BBAnimationDelegate
 
 - (void) animationBBSquareView:(BBSquareView *)squareView didFinishAnimationWithStatus:(NSDictionary *)status
 {
     NSLog(@"current status is %@\n",[status objectForKey:@"status"]);
+}
+
+#pragma mark - BBWTFDelegate
+
+-(void) buttonPressed
+{
+    NSLog(@"pressed\n");
+    
+    UIViewController *aVC = [[UIViewController alloc] init];
+    aVC.view.backgroundColor = [UIColor greenColor];
+    [self presentViewController:aVC animated:YES completion:nil];
+    
+    NSLog(@"pushed\n");
 }
 @end
