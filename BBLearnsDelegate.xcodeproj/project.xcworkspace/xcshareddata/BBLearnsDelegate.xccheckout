@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2290C4E0-57FF-418D-A5CB-9EF15E97597B</string>
+	<string>1912DB65-CC69-4DCA-AD96-1555A33ED01E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BBLearnsDelegate</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>77A2A01B-7400-4D75-973F-2428407AB1A3</key>
-		<string>https://github.com/porridgec/BBBrand.git</string>
+		<key>A43E1C41-1FDE-4FE3-9836-129D7745972A</key>
+		<string>https://github.com/porridgec/BBLearnsDelegate.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BBLearnsDelegate/BBLearnsDelegate.xcodeproj/project.xcworkspace</string>
+	<string>BBLearnsDelegate.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>77A2A01B-7400-4D75-973F-2428407AB1A3</key>
-		<string>../../..</string>
+		<key>A43E1C41-1FDE-4FE3-9836-129D7745972A</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/porridgec/BBBrand.git</string>
+	<string>https://github.com/porridgec/BBLearnsDelegate.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>77A2A01B-7400-4D75-973F-2428407AB1A3</string>
+	<string>A43E1C41-1FDE-4FE3-9836-129D7745972A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>77A2A01B-7400-4D75-973F-2428407AB1A3</string>
+			<string>A43E1C41-1FDE-4FE3-9836-129D7745972A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>BBLearnsDelegate</string>
 		</dict>
